@@ -8,7 +8,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 
-public class GUI_main {
+public class TicTacToeGUI {
 
 	private WidgetViewer wv;
 	private static JLabel Player1;
@@ -34,7 +34,7 @@ public class GUI_main {
 
 	static int cnt = 0;
 
-	public GUI_main() {
+	public TicTacToeGUI() {
 		wv = new WidgetViewer();
 		Player1 = new JLabel("Player X: " + xScore);
 
@@ -551,7 +551,7 @@ public class GUI_main {
 	}
 
 	public static void main(String[] args) {
-		new GUI_main();
+		new TicTacToeGUI();
 
 	}
 
